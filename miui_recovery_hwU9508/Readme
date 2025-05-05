@@ -1,0 +1,21 @@
+[中文]
+简明编译教程：
+1. 同步此仓库于并放置于patch_device/hwu9508/目录下；
+2. 切换到miui_recovery目录，输入命令：
+    . build/envsetup.sh
+    make -j4 u9508
+3. 将会在out/patch_device/u9508/目录下看见miui recovery
+4. 其他，经过修改后的miui recovery源代码见https://github.com/scue/miui_recovery_hwU8950d；
+5. 其他，最初的Miui recovery源代码见https://github.com/MiCode/miui_recovery
+6. 目前海思平台的荣耀2还不可以直接运行MIUI recovery，海思平台的recovery打包方法有所不同。
+
+[English]
+HOW-TO:
+1. sync this repository to $MIUI_RECOVERY_TOPDIR/patch_device/hwu9508/;
+2. cd $MIUI_RECOVERY_TOPDIR/, type commands as following:
+    . build/envsetup.sh
+    make -j4 u9508
+3. you can get miui recovery in out/patch_device/u9508/
+4. otherwise, had modified src: https://github.com/scue/miui_recovery_hwU8950d；
+5. otherwise, origin miui recovery src: https://github.com/MiCode/miui_recovery
+6. Huawei Honor2(board platform:hisilicon-k3) can't run this compiled MIUI recovery, lack unpack bootimg tool for hisilicon platform.

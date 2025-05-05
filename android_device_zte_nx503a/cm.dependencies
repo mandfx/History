@@ -1,0 +1,20 @@
+[
+ {
+   "repository": "android_hardware_qcom_display-caf-new",
+   "target_path": "hardware/qcom/display-caf-new"
+ },
+ {
+   "repository": "android_hardware_qcom_media-caf-new",
+   "target_path": "hardware/qcom/media-caf-new"
+ },
+ {
+   "repository": "android_device_qcom_common",
+   "target_path": "device/qcom/common"
+ },
+ {
+   "remote": "github",
+   "repository": "XMelancholy/android_kernel_zte_nx503a",
+   "target_path": "kernel/zte/NX503A"
+   "revision": "cm-11.0"
+ },
+]
